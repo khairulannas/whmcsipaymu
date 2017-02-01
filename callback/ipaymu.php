@@ -20,7 +20,7 @@
  */
 
 # Required File Includes
-include("../../../dbconnect.php");
+include("../../../init.php"); #dbconnect.php diganti ke init.php utk whmcs versi 6 keatas karena sudah jadi 1 dengan file init.php, sumber : http://docs.whmcs.com/Version_6.0_Release_Notes#Removal_of_Dbconnect.php
 include("../../../includes/functions.php");
 include("../../../includes/gatewayfunctions.php");
 include("../../../includes/invoicefunctions.php");
